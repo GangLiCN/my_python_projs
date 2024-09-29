@@ -19,8 +19,8 @@ Detailed log:
     
 '''
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["HF_HOME"] = "G:/models_local_cache"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ["HF_HOME"] = "G:/models_local_cache"  # update it to match your env
 
 
 pipeline = transformers.pipeline(
@@ -48,7 +48,7 @@ terminators = [
 
 outputs = pipeline(
     prompt,
-    max_new_tokens=256,
+    max_new_tokens=8192,
     eos_token_id=terminators,
     do_sample=True,
     temperature=0.6,
