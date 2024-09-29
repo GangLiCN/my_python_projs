@@ -7,7 +7,7 @@ from huggingface_hub import HfApi
 from safetensors.torch import load_file
 import torch
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
+os.environ["HUGGINGFACE_API_KEY"] = xxxx"
 global sf_file_name
 
 def recursive_search(start_dir):
