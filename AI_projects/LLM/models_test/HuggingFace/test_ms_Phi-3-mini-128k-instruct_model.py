@@ -3,8 +3,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import time
 
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["HF_HOME"] = "G:/models_local_cache"
+os.environ["HUGGINGFACE_API_KEY"] = xxxx"
+os.environ["HF_HOME"] = "G:/models_local_cache"  # update it according to your env`
 
 tokenizer = AutoTokenizer.from_pretrained("microsoft/Phi-3-mini-128k-instruct", trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained("microsoft/Phi-3-mini-128k-instruct", trust_remote_code=True)
