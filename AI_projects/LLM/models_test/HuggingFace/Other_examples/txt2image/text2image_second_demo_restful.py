@@ -17,8 +17,8 @@ import time
 
 litellm.set_verbose = True
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["HF_HOME"] = "G:/models_local_cache"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ["HF_HOME"] = "G:/models_local_cache"  # update it to match your test env
 
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
 headers = {"Authorization": "Bearer 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"}
