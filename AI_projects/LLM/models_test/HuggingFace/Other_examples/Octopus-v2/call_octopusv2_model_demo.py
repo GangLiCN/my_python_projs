@@ -24,7 +24,7 @@ model = GemmaForCausalLM.from_pretrained(
 input_text = "Take a selfie for me with front camera"
 nexa_query = f"Below is the query from the users, please call the correct function and generate the parameters to call the function.\n\nQuery: {input_text} \n\nResponse:"
 start_time = time.time()
-print("nexa model result:\n", inference(nexa_query))
+print("Result:\n", inference(nexa_query))
 print("latency:", time.time() - start_time," s")
 
 '''
