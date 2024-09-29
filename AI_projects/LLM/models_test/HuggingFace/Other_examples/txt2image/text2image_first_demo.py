@@ -15,8 +15,8 @@ def load_model():
     return pipe
 
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["HF_HOME"] = "G:/models_local_cache"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ["HF_HOME"] = "G:/models_local_cache"  # update it to match your test env
     
 begin_time=time.time()
 my_pipe=load_model()
