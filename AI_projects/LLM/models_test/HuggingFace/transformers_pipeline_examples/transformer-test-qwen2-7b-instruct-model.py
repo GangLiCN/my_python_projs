@@ -17,8 +17,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 device = "cuda" # the device to load the model onto
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["HF_HOME"] = "G:/models_local_cache"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ["HF_HOME"] = "G:/models_local_cache"  ## update it to match your env
 
 model = AutoModelForCausalLM.from_pretrained(
     "Qwen/Qwen2-7B-Instruct",
@@ -45,7 +45,7 @@ print("开始推理，请等待...")
 
 generated_ids = model.generate(
     model_inputs.input_ids,
-    max_new_tokens=512
+    max_new_tokens=8192
 )
 
 end_time=time.time()
