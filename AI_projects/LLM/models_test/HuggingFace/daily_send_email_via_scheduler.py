@@ -10,12 +10,12 @@ def send_email():
     # 邮件服务器配置
     smtp_server = 'smtp.163.com'  # 替换为你的 SMTP 服务器
     smtp_port = 465  # 使用 SSL 的 SMTP 端口通常是 465
-    smtp_username = 'krislee@163.com'  # 替换为你的邮箱地址
-    smtp_password = 'Beauti2018__'  # 替换为你的邮箱密码
+    smtp_username = 'yourname'  # 替换为你的邮箱地址
+    smtp_password = 'your_password'  # 替换为你的邮箱密码
 
     # 邮件内容
     from_email = smtp_username
-    to_email = 'krislee@163.com'  # 替换为接收者的邮箱地址
+    to_email = 'you@org'  # 替换为接收者的邮箱地址
     subject = '每日自动发送邮件测试'
     body = '这是一封测试邮件，如果你能正确阅读，证明定时邮件发送程序工作正常!'
 
