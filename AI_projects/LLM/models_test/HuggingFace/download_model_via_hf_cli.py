@@ -35,8 +35,8 @@ Alternative ways to download models from Huggingface:
 https://huggingface.co/google/flan-t5-xxl/tree/main  
 '''
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ['HUGGING_FACE_HUB_TOKEN'] = "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"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ['HUGGING_FACE_HUB_TOKEN'] = "xxxx"
 
 
 os.environ["HF_HOME"] = "G:/models_local_cache/HuggingFace"
