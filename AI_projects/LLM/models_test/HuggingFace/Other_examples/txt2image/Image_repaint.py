@@ -23,10 +23,10 @@ pipe = AutoPipelineForInpainting.from_pretrained("diffusers/stable-diffusion-xl-
 '''
 
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ['HUGGING_FACE_HUB_TOKEN'] = "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"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ['HUGGING_FACE_HUB_TOKEN'] = "xxxx"
 
-os.environ["HF_HOME"] = "G:/models_local_cache/HuggingFace"
+os.environ["HF_HOME"] = "G:/models_local_cache/HuggingFace"  # update it to match your test env
 
 @lru_cache(maxsize=32)
 def load_model():
