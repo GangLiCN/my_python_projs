@@ -19,8 +19,8 @@ torch.quint8：8位无符号量化整数。用于在模型推理阶段减少内�
 
 '''
 
-os.environ["HUGGINGFACE_API_KEY"] = "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"
-os.environ["HF_HOME"] = "G:/models_local_cache/HuggingFace"
+os.environ["HUGGINGFACE_API_KEY"] = "xxxx"
+os.environ["HF_HOME"] = "G:/models_local_cache/HuggingFace"   # update it according to your env
 
 tokenizer = AutoTokenizer.from_pretrained("google/gemma-2-9b-it")
 model = AutoModelForCausalLM.from_pretrained("google/gemma-2-9b-it")
